@@ -11,12 +11,12 @@ public class panagram
   {
 		// TODO Auto-generated method stub
 		/*Scanner sc = new Scanner(System.in);
-		  List<String> input = new ArrayList<>();
+		  List<String> input = new ArrayList<>(); // to get input from user
 		  int n = sc.nextInt();
 		  for(int i = 0;i<n;i++)
 		  {
-		  	String input = sc.nextLine();
-		  	sent.add(input);
+		  	String sent = sc.nextLine();
+		  	input.add(sent);
 		  }
 		  
 		 */
