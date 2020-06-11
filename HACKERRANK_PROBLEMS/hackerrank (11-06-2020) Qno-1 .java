@@ -24,7 +24,7 @@ public class panagram
 		input.add("aBcdefghijkl mnopq rstuVw xyzabc"); //contains All letter of alpha with spaces cps
 		input.add("mnopqrstuvwxyzabcabcdefghijkl"); // contains All letter of alpha
 		input.add("NONO"); 
-		List<String> output = new ArrayList<>();
+		String s = "";
 		TreeSet<Character> tree = new TreeSet<>();
 		for(String line : input)
 		{
@@ -39,13 +39,13 @@ public class panagram
 					tree.add(w);
 			}
 			if(tree.size() == 26)
-				output.add("YES");
+				s = s + "1";
 			else
-				output.add("NO");
+				s = s + "0";
 			tree.clear();
 				
 		}
-		System.out.println(output);
+		System.out.println(s);
 
 	}
 
